@@ -12,16 +12,16 @@ See: .planning/PROJECT.md (updated 2025-01-31)
 Phase: 3 of 4 (Edge Cases & Best Practices)
 Plan: 5 of 5 complete
 Status: Phase complete
-Last activity: 2026-01-31 — Completed 03-04-PLAN.md (Library Error Handling)
+Last activity: 2026-01-31 — Completed 03-05-PLAN.md (Production Patterns Guide)
 
 Progress: [█████████░] 90%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 16
-- Average duration: 3 min
-- Total execution time: 0.85 hours
+- Total plans completed: 17
+- Average duration: 4 min
+- Total execution time: 0.90 hours
 
 **By Phase:**
 
@@ -29,10 +29,10 @@ Progress: [█████████░] 90%
 |-------|-------|-------|----------|
 | 1 - Authentication & Setup Foundation | 3/3 | 10 min | 3 min |
 | 2 - Core API Documentation | 8/8 | 26 min | 3 min |
-| 3 - Edge Cases & Best Practices | 5/5 | 18 min | 4 min |
+| 3 - Edge Cases & Best Practices | 5/5 | 22 min | 4 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-08 (4 min), 03-01 (3 min), 03-02 (4 min), 03-03 (4 min), 03-04 (3 min)
+- Last 5 plans: 03-01 (3 min), 03-02 (4 min), 03-03 (4 min), 03-04 (3 min), 03-05 (4 min)
 - Trend: Consistent velocity
 
 *Updated after each plan completion*
@@ -91,6 +91,9 @@ Recent decisions affecting current work:
 - UMA timeline (2h/48h): Official dispute process timing documented (03-02)
 - ERROR_SOLUTIONS as lookup dictionary: Programmatic error categorization for automated recovery (03-04)
 - 5 recovery patterns: Auth, precision, rate limit, server error, comprehensive handler (03-04)
+- RateLimiter with sliding window for burst limits: Matches Polymarket's 10-second burst windows (03-05)
+- Conservative rate limits (80% of max): Safety margin to avoid queue delays (03-05)
+- BalanceTracker for reconciliation: Direct web3 balance checks with tolerance handling (03-05)
 
 ### Pending Todos
 
@@ -103,11 +106,11 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Completed 03-04-PLAN.md
+Stopped at: Completed 03-05-PLAN.md
 Resume file: None
 
 **Phase 3 Complete:** All edge cases and library documentation finished. Created:
 - edge-cases/: usdc-token-confusion.md, order-constraints.md, price-interpretation.md, resolution-mechanics.md, negrisk-trading.md, partial-fills.md
-- library/: README.md, error-handling.md
+- library/: README.md, error-handling.md, production-patterns.md
 
-Requirements satisfied: EDGE-01 through EDGE-09, LIB-03. Ready for Phase 4 (Production Patterns & Advanced Topics).
+Requirements satisfied: EDGE-01 through EDGE-09, LIB-02, LIB-03, LIB-04. Ready for Phase 4.
