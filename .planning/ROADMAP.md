@@ -85,10 +85,11 @@ Plans:
   2. Documentation is structured for selective loading (separate auth, trading, websocket, edge cases modules)
   3. Package includes installation instructions and works for other Claude users
   4. Version tracking system exists for API changes and documentation updates
-**Plans**: TBD
+**Plans**: 2 plans in 1 wave
 
 Plans:
-- [ ] TBD (determined during plan-phase)
+- [ ] 04-01-PLAN.md — Main SKILL.md entry point and VERSION.md tracking (SKILL-01, SKILL-04)
+- [ ] 04-02-PLAN.md — Installation guide and cross-module navigation (SKILL-02, SKILL-03)
 
 ## Progress
 
@@ -100,8 +101,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Authentication & Setup Foundation | 3/3 | Complete | 2026-01-31 |
 | 2. Core API Documentation | 8/8 | Complete | 2026-01-31 |
 | 3. Edge Cases & Best Practices | 5/5 | Complete | 2026-01-31 |
-| 4. Skill Packaging | 0/TBD | Not started | - |
+| 4. Skill Packaging | 0/2 | Planned | - |
 
 ---
 *Roadmap created: 2026-01-31*
-*Last updated: 2026-01-31 (Phase 3 complete)*
+*Last updated: 2026-01-31 (Phase 4 planned)*
