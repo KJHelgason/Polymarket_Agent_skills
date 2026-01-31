@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2025-01-31)
 ## Current Position
 
 Phase: 3 of 4 (Edge Cases & Best Practices)
-Plan: Ready to plan
-Status: Ready to plan
-Last activity: 2026-01-31 — Phase 2 complete, verified
+Plan: 1 of 5 complete
+Status: In progress
+Last activity: 2026-01-31 — Completed 03-01-PLAN.md (Edge Cases Index & Token/Order Constraints)
 
-Progress: [█████░░░░░] 50%
+Progress: [██████░░░░] 55%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 11
+- Total plans completed: 12
 - Average duration: 3 min
-- Total execution time: 0.58 hours
+- Total execution time: 0.62 hours
 
 **By Phase:**
 
@@ -29,9 +29,10 @@ Progress: [█████░░░░░] 50%
 |-------|-------|-------|----------|
 | 1 - Authentication & Setup Foundation | 3/3 | 10 min | 3 min |
 | 2 - Core API Documentation | 8/8 | 26 min | 3 min |
+| 3 - Edge Cases & Best Practices | 1/5 | 3 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-05 (4 min), 02-06 (4 min), 02-07 (4 min), 02-08 (4 min)
+- Last 5 plans: 02-06 (4 min), 02-07 (4 min), 02-08 (4 min), 03-01 (3 min)
 - Trend: Consistent velocity
 
 *Updated after each plan completion*
@@ -79,6 +80,9 @@ Recent decisions affecting current work:
 - 5-second heartbeat interval: Balance between keeping connection alive and minimizing overhead (02-08)
 - 5-minute data timeout threshold: Long enough for low-activity markets, short enough to detect issues (02-08)
 - Exponential backoff with jitter: Prevents thundering herd on reconnection (02-08)
+- Symptom-to-solution structure: Troubleshooting-first approach enables fast problem resolution (03-01)
+- FOK -> GTC fallback: When precision requirements cannot be met, graceful degradation is better than failure (03-01)
+- Always fetch tick size: Cached values cause rejections at price extremes (03-01)
 
 ### Pending Todos
 
@@ -91,7 +95,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Phase 2 verified and complete, ready for Phase 3 planning
+Stopped at: Completed 03-01-PLAN.md
 Resume file: None
 
-**Phase 2 Complete:** All Core API documentation finished (20 skill files, 10,621 lines). Verified 5/5 must-haves. All 19 requirements (GAMMA-01-04, CLOB-01-06, WS-01-05, DATA-01-04) satisfied. Ready for Phase 3 (Edge Cases & Best Practices).
+**Phase 3 Progress:** Edge cases directory established. EDGE-01 (USDC confusion), EDGE-02 (minimums), EDGE-03 (FOK precision), EDGE-08 (tick size) documented. Ready for Plan 03-02.
