@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2025-01-31)
 ## Current Position
 
 Phase: 1 of 4 (Authentication & Setup Foundation)
-Plan: 1 of 3 complete
+Plan: 2 of 3 complete
 Status: In progress
-Last activity: 2026-01-31 — Completed 01-01-PLAN.md
+Last activity: 2026-01-31 — Completed 01-02-PLAN.md
 
-Progress: [███░░░░░░░] 33%
+Progress: [██████░░░░] 67%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
+- Total plans completed: 2
 - Average duration: 3 min
-- Total execution time: 0.05 hours
+- Total execution time: 0.10 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 - Authentication & Setup Foundation | 1/3 | 3 min | 3 min |
+| 1 - Authentication & Setup Foundation | 2/3 | 6 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (3 min)
-- Trend: Just started
+- Last 5 plans: 01-01 (3 min), 01-02 (3 min)
+- Trend: Consistent velocity
 
 *Updated after each plan completion*
 
@@ -47,6 +47,9 @@ Recent decisions affecting current work:
 - Use create_or_derive_api_creds() as recommended method: Safer for initial setup, retrieves existing rather than invalidating (01-01)
 - Document nonce tracking as critical: Without nonce, credential recovery impossible (01-01)
 - Separate L1/L2 authentication documentation: Clarifies different purposes and when each is used (01-01)
+- Unlimited approvals (MaxUint256) as standard pattern: Industry standard for Polymarket token setup (01-02)
+- USDC.e as exclusive token: Native USDC requires swap, prominently documented (01-02)
+- Proxy wallet allowance exemption: Reduces confusion about which wallets need manual setup (01-02)
 
 ### Pending Todos
 
@@ -58,6 +61,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-31T17:32:30Z
-Stopped at: Completed 01-01-PLAN.md (authentication documentation)
+Last session: 2026-01-31T17:34:10Z
+Stopped at: Completed 01-02-PLAN.md (wallet types and token allowances)
 Resume file: None
