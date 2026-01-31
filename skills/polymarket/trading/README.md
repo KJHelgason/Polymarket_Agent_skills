@@ -94,19 +94,23 @@ positions = client.get_orders()  # Or use positions endpoint
 |----------|---------|--------------|
 | **[clob-api-overview.md](./clob-api-overview.md)** | CLOB API architecture, endpoints, client setup | First time using CLOB API |
 | **[order-types.md](./order-types.md)** | GTC, GTD, FOK, FAK order documentation | Choosing the right order type |
-| *order-placement.md* | Order creation and submission workflows | Placing orders (coming Phase 2) |
-| *order-management.md* | Cancellation, modification, batch operations | Managing active orders (coming Phase 2) |
-| *positions-and-balances.md* | Position tracking and balance queries | Portfolio management (coming Phase 2) |
+| **[order-placement.md](./order-placement.md)** | Order creation and submission workflows | Placing orders |
+| **[order-management.md](./order-management.md)** | Cancellation, status, batch operations | Managing active orders |
+| **[positions-and-balances.md](./positions-and-balances.md)** | Position tracking and balance queries | Portfolio management |
 
 ### Reading Order
 
 **For first-time traders:**
 1. Start with [clob-api-overview.md](./clob-api-overview.md) - understand API structure
 2. Read [order-types.md](./order-types.md) - learn order type selection
-3. Follow the Quick Start above to place your first order
+3. Read [order-placement.md](./order-placement.md) - detailed placement workflow
+4. Follow the Quick Start above to place your first order
 
 **For specific tasks:**
 - "Which order type should I use?" --> [order-types.md](./order-types.md)
+- "How do I place an order?" --> [order-placement.md](./order-placement.md)
+- "How do I cancel orders?" --> [order-management.md](./order-management.md)
+- "How do I check my balance?" --> [positions-and-balances.md](./positions-and-balances.md)
 - "How does authentication work?" --> [../auth/](../auth/)
 - "Where do I get token IDs?" --> [../market-discovery/](../market-discovery/)
 
@@ -250,8 +254,8 @@ This trading skill connects to other Polymarket skills:
 
 ### Useful During Trading
 
-- **Real-Time Data** (../real-time/) - Live price updates via WebSocket *(coming)*
-- **Data Analytics** (../data-analytics/) - Position tracking, P&L *(coming)*
+- **[Real-Time Data](../real-time/)** - Live price updates via WebSocket
+- **[Data Analytics](../data-analytics/)** - Position tracking, P&L
 
 ### Skill Relationship Diagram
 
@@ -333,4 +337,4 @@ tick_size = client.get_tick_size(token_id)  # Usually 0.01
 ---
 
 **Last updated:** 2026-01-31 (Phase 2)
-**Status:** In Progress - Core trading documentation complete, additional guides coming
+**Status:** Complete - All trading documentation available (CLOB-01 through CLOB-06)
