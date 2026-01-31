@@ -28,10 +28,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Documentation clearly differentiates proxy wallet vs EOA patterns and shows detection method
   3. Documentation covers USDC.e token setup including address, allowance flow, and common confusion points
   4. Documentation shows py-clob-client initialization with all wallet types (EOA, POLY_PROXY, GNOSIS_SAFE)
-**Plans**: TBD
+**Plans**: 3 plans in 2 waves
 
 Plans:
-- [ ] TBD (determined during plan-phase)
+- [ ] 01-01-PLAN.md — L1/L2 authentication flow and API credential management (AUTH-01, AUTH-03)
+- [ ] 01-02-PLAN.md — Wallet types detection and token allowance setup (AUTH-02, AUTH-04)
+- [ ] 01-03-PLAN.md — Complete client initialization guide and auth skill index (LIB-01)
 
 ### Phase 2: Core API Documentation
 **Goal**: Complete documentation of all Polymarket API endpoints with request/response schemas and real-time capabilities
@@ -84,7 +86,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Authentication & Setup Foundation | 0/TBD | Not started | - |
+| 1. Authentication & Setup Foundation | 0/3 | Planned | - |
 | 2. Core API Documentation | 0/TBD | Not started | - |
 | 3. Edge Cases & Best Practices | 0/TBD | Not started | - |
 | 4. Skill Packaging | 0/TBD | Not started | - |
