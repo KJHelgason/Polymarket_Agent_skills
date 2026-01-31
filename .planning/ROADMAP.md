@@ -67,10 +67,14 @@ Plans:
   3. Documentation clarifies ambiguous fields (price vs odds, resolution status, NegRisk patterns)
   4. Documentation explains py-clob-client error handling, exception types, and recovery patterns
   5. Documentation provides best practices for production usage (rate limits, WebSocket reconnection, balance tracking)
-**Plans**: TBD
+**Plans**: 5 plans in 2 waves
 
 Plans:
-- [ ] TBD (determined during plan-phase)
+- [ ] 03-01-PLAN.md — Edge cases README, USDC token confusion, order constraints (EDGE-01, EDGE-02, EDGE-03, EDGE-08)
+- [ ] 03-02-PLAN.md — Price interpretation and resolution mechanics (EDGE-04, EDGE-05, EDGE-06)
+- [ ] 03-03-PLAN.md — NegRisk trading patterns and partial fill tracking (EDGE-07, EDGE-09)
+- [ ] 03-04-PLAN.md — Library error handling guide (LIB-03)
+- [ ] 03-05-PLAN.md — Production patterns (LIB-02, LIB-04)
 
 ### Phase 4: Skill Packaging
 **Goal**: Package all documentation as shareable Claude skills with selective loading capabilities
@@ -95,7 +99,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Authentication & Setup Foundation | 3/3 | Complete | 2026-01-31 |
 | 2. Core API Documentation | 8/8 | Complete | 2026-01-31 |
-| 3. Edge Cases & Best Practices | 0/TBD | Ready | - |
+| 3. Edge Cases & Best Practices | 0/5 | In Progress | - |
 | 4. Skill Packaging | 0/TBD | Not started | - |
 
 ---
