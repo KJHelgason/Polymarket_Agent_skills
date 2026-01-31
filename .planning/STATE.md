@@ -12,26 +12,26 @@ See: .planning/PROJECT.md (updated 2025-01-31)
 Phase: 2 of 4 (Core API Documentation)
 Plan: 8 of 8 complete
 Status: Phase complete
-Last activity: 2026-01-31 - Completed 02-06-PLAN.md (Portfolio Export Patterns)
+Last activity: 2026-01-31 - Completed 02-08-PLAN.md (User Channel & Connection Management)
 
 Progress: [████████░░] 80%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
+- Total plans completed: 11
 - Average duration: 3 min
-- Total execution time: 0.53 hours
+- Total execution time: 0.58 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1 - Authentication & Setup Foundation | 3/3 | 10 min | 3 min |
-| 2 - Core API Documentation | 7/8 | 22 min | 3 min |
+| 2 - Core API Documentation | 8/8 | 26 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-04 (3 min), 02-05 (4 min), 02-06 (4 min), 02-07 (4 min)
+- Last 5 plans: 02-05 (4 min), 02-06 (4 min), 02-07 (4 min), 02-08 (4 min)
 - Trend: Consistent velocity
 
 *Updated after each plan completion*
@@ -72,6 +72,9 @@ Recent decisions affecting current work:
 - FIFO tax lots: Standard accounting method for cost basis calculation (02-06)
 - ISO date format for exports: Universal format compatible with accounting software (02-06)
 - Bounded collections for history: Prevents memory growth in long-running connections (02-07)
+- 5-second heartbeat interval: Balance between keeping connection alive and minimizing overhead (02-08)
+- 5-minute data timeout threshold: Long enough for low-activity markets, short enough to detect issues (02-08)
+- Exponential backoff with jitter: Prevents thundering herd on reconnection (02-08)
 
 ### Pending Todos
 
@@ -84,7 +87,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Completed 02-06-PLAN.md (Portfolio Export Patterns)
+Stopped at: Completed 02-08-PLAN.md (User Channel & Connection Management)
 Resume file: None
 
-**Phase 2 Complete:** All 8 plans (02-01 through 02-08) complete. Data analytics skill complete with 5 files (1916 lines). Ready for Phase 3.
+**Phase 2 Complete:** All 8 plans (02-01 through 02-08) complete. Real-time skill complete with 5 files (2136 lines). Ready for Phase 3.
