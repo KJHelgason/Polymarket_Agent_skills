@@ -2,16 +2,6 @@
 
 Reference documentation for the official Polymarket Python client library.
 
-## Overview
-
-| Attribute | Value |
-|-----------|-------|
-| Library | `py-clob-client` |
-| Version | 0.34.5+ |
-| Repository | [github.com/Polymarket/py-clob-client](https://github.com/Polymarket/py-clob-client) |
-| Purpose | Python client for Polymarket CLOB API |
-| License | MIT |
-
 ## Installation
 
 ```bash
@@ -48,13 +38,30 @@ print(client.get_ok())
 
 See [Client Initialization Guide](../auth/client-initialization.md) for complete setup instructions.
 
-## Library Documentation
+## When to Use This Section
 
-### Error Handling
+This library reference helps when you need to:
+
+- **Handle errors from API calls** - Exception types, status codes, recovery patterns
+- **Implement rate limiting** - Burst and sustained limits, RateLimiter class
+- **Deploy to production** - WebSocket reliability, balance tracking, checklists
+- **Look up method signatures** - Common py-clob-client method reference
+
+## Library Documentation
 
 | Document | Description |
 |----------|-------------|
 | [Error Handling](./error-handling.md) | Exception types, common errors, and recovery patterns |
+| [Production Patterns](./production-patterns.md) | Rate limiting, WebSocket reliability, balance tracking |
+
+## Quick Reference
+
+| Attribute | Value |
+|-----------|-------|
+| **Library** | `py-clob-client` |
+| **Version** | 0.34.5+ |
+| **GitHub** | [github.com/Polymarket/py-clob-client](https://github.com/Polymarket/py-clob-client) |
+| **PyPI** | `pip install py-clob-client` |
 
 ### Related Guides
 
