@@ -7,10 +7,10 @@
 
 ### Authentication & Setup
 
-- [ ] **AUTH-01**: Document L1/L2 authentication flow with code examples
-- [ ] **AUTH-02**: Document proxy wallet vs EOA wallet patterns and detection
-- [ ] **AUTH-03**: Document API key derivation, storage, and rotation
-- [ ] **AUTH-04**: Document USDC.e token allowance setup and approval flow
+- [x] **AUTH-01**: Document L1/L2 authentication flow with code examples
+- [x] **AUTH-02**: Document proxy wallet vs EOA wallet patterns and detection
+- [x] **AUTH-03**: Document API key derivation, storage, and rotation
+- [x] **AUTH-04**: Document USDC.e token allowance setup and approval flow
 
 ### Market Discovery (Gamma API)
 
@@ -57,7 +57,7 @@
 
 ### py-clob-client Library
 
-- [ ] **LIB-01**: Document client initialization with all configuration options
+- [x] **LIB-01**: Document client initialization with all configuration options
 - [ ] **LIB-02**: Document common method signatures and usage patterns
 - [ ] **LIB-03**: Document error handling and exception types
 - [ ] **LIB-04**: Document best practices for production usage
@@ -91,11 +91,11 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 | Phase 1 | Pending |
-| AUTH-02 | Phase 1 | Pending |
-| AUTH-03 | Phase 1 | Pending |
-| AUTH-04 | Phase 1 | Pending |
-| LIB-01 | Phase 1 | Pending |
+| AUTH-01 | Phase 1 | Complete |
+| AUTH-02 | Phase 1 | Complete |
+| AUTH-03 | Phase 1 | Complete |
+| AUTH-04 | Phase 1 | Complete |
+| LIB-01 | Phase 1 | Complete |
 | GAMMA-01 | Phase 2 | Pending |
 | GAMMA-02 | Phase 2 | Pending |
 | GAMMA-03 | Phase 2 | Pending |

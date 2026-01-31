@@ -12,7 +12,7 @@ This roadmap transforms Polymarket API research into comprehensive Claude skills
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Authentication & Setup Foundation** - Auth flows, wallet patterns, library initialization
+- [x] **Phase 1: Authentication & Setup Foundation** - Auth flows, wallet patterns, library initialization
 - [ ] **Phase 2: Core API Documentation** - Complete REST and WebSocket documentation for all three APIs
 - [ ] **Phase 3: Edge Cases & Best Practices** - Critical pitfalls, production patterns, library usage
 - [ ] **Phase 4: Skill Packaging** - Shareable Claude skills with selective loading
@@ -31,9 +31,9 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans in 2 waves
 
 Plans:
-- [ ] 01-01-PLAN.md — L1/L2 authentication flow and API credential management (AUTH-01, AUTH-03)
-- [ ] 01-02-PLAN.md — Wallet types detection and token allowance setup (AUTH-02, AUTH-04)
-- [ ] 01-03-PLAN.md — Complete client initialization guide and auth skill index (LIB-01)
+- [x] 01-01-PLAN.md — L1/L2 authentication flow and API credential management (AUTH-01, AUTH-03)
+- [x] 01-02-PLAN.md — Wallet types detection and token allowance setup (AUTH-02, AUTH-04)
+- [x] 01-03-PLAN.md — Complete client initialization guide and auth skill index (LIB-01)
 
 ### Phase 2: Core API Documentation
 **Goal**: Complete documentation of all Polymarket API endpoints with request/response schemas and real-time capabilities
@@ -86,7 +86,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Authentication & Setup Foundation | 0/3 | Planned | - |
+| 1. Authentication & Setup Foundation | 3/3 | Complete | 2026-01-31 |
 | 2. Core API Documentation | 0/TBD | Not started | - |
 | 3. Edge Cases & Best Practices | 0/TBD | Not started | - |
 | 4. Skill Packaging | 0/TBD | Not started | - |
