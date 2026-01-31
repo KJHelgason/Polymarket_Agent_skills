@@ -45,22 +45,22 @@
 
 ### Edge Cases & Pitfalls
 
-- [ ] **EDGE-01**: Document USDC.e token address and common confusion with Native USDC
-- [ ] **EDGE-02**: Document minimum order constraints (shares, dollar amounts)
-- [ ] **EDGE-03**: Document decimal precision requirements by order type
-- [ ] **EDGE-04**: Document price vs odds interpretation (midpoint vs executable)
-- [ ] **EDGE-05**: Document market resolution status fields and meanings
-- [ ] **EDGE-06**: Document disputed outcome handling
-- [ ] **EDGE-07**: Document NegRisk multi-outcome market patterns
-- [ ] **EDGE-08**: Document dynamic tick size handling
-- [ ] **EDGE-09**: Document partial fill tracking and reconciliation
+- [x] **EDGE-01**: Document USDC.e token address and common confusion with Native USDC
+- [x] **EDGE-02**: Document minimum order constraints (shares, dollar amounts)
+- [x] **EDGE-03**: Document decimal precision requirements by order type
+- [x] **EDGE-04**: Document price vs odds interpretation (midpoint vs executable)
+- [x] **EDGE-05**: Document market resolution status fields and meanings
+- [x] **EDGE-06**: Document disputed outcome handling
+- [x] **EDGE-07**: Document NegRisk multi-outcome market patterns
+- [x] **EDGE-08**: Document dynamic tick size handling
+- [x] **EDGE-09**: Document partial fill tracking and reconciliation
 
 ### py-clob-client Library
 
 - [x] **LIB-01**: Document client initialization with all configuration options
-- [ ] **LIB-02**: Document common method signatures and usage patterns
-- [ ] **LIB-03**: Document error handling and exception types
-- [ ] **LIB-04**: Document best practices for production usage
+- [x] **LIB-02**: Document common method signatures and usage patterns
+- [x] **LIB-03**: Document error handling and exception types
+- [x] **LIB-04**: Document best practices for production usage
 
 ### Skill Packaging
 
@@ -115,18 +115,18 @@
 | DATA-02 | Phase 2 | Complete |
 | DATA-03 | Phase 2 | Complete |
 | DATA-04 | Phase 2 | Complete |
-| EDGE-01 | Phase 3 | Pending |
-| EDGE-02 | Phase 3 | Pending |
-| EDGE-03 | Phase 3 | Pending |
-| EDGE-04 | Phase 3 | Pending |
-| EDGE-05 | Phase 3 | Pending |
-| EDGE-06 | Phase 3 | Pending |
-| EDGE-07 | Phase 3 | Pending |
-| EDGE-08 | Phase 3 | Pending |
-| EDGE-09 | Phase 3 | Pending |
-| LIB-02 | Phase 3 | Pending |
-| LIB-03 | Phase 3 | Pending |
-| LIB-04 | Phase 3 | Pending |
+| EDGE-01 | Phase 3 | Complete |
+| EDGE-02 | Phase 3 | Complete |
+| EDGE-03 | Phase 3 | Complete |
+| EDGE-04 | Phase 3 | Complete |
+| EDGE-05 | Phase 3 | Complete |
+| EDGE-06 | Phase 3 | Complete |
+| EDGE-07 | Phase 3 | Complete |
+| EDGE-08 | Phase 3 | Complete |
+| EDGE-09 | Phase 3 | Complete |
+| LIB-02 | Phase 3 | Complete |
+| LIB-03 | Phase 3 | Complete |
+| LIB-04 | Phase 3 | Complete |
 | SKILL-01 | Phase 4 | Pending |
 | SKILL-02 | Phase 4 | Pending |
 | SKILL-03 | Phase 4 | Pending |
@@ -139,4 +139,4 @@
 
 ---
 *Requirements defined: 2025-01-31*
-*Last updated: 2026-01-31 (Phase 2 requirements complete)*
+*Last updated: 2026-01-31 (Phase 3 requirements complete)*
