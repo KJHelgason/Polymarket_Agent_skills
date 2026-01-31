@@ -19,19 +19,19 @@ Progress: [██████░░░░] 56%
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
-- Average duration: 4 min
-- Total execution time: 0.38 hours
+- Total plans completed: 8
+- Average duration: 3 min
+- Total execution time: 0.45 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1 - Authentication & Setup Foundation | 3/3 | 10 min | 3 min |
-| 2 - Core API Documentation | 3/8 | 13 min | 4 min |
+| 2 - Core API Documentation | 5/8 | 17 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-03 (4 min), 02-01 (4 min), 02-02 (4 min), 02-03 (5 min)
+- Last 5 plans: 02-02 (4 min), 02-03 (5 min), 02-04 (3 min), 02-05 (4 min)
 - Trend: Consistent velocity
 
 *Updated after each plan completion*
@@ -64,6 +64,9 @@ Recent decisions affecting current work:
 - FAK as market order: Clearest mental model for immediate execution (02-03)
 - Decision tree for order selection: Visual aid helps users choose correct type (02-03)
 - GTD seconds not milliseconds: Prevent common timestamp confusion (02-03)
+- Data API no-auth pattern: Public wallet queries simplify portfolio analysis (02-05)
+- CLOB for price history: Historical prices via CLOB /prices-history endpoint (02-05)
+- Pagination generator pattern: Memory-efficient for large trade histories (02-05)
 
 ### Pending Todos
 
@@ -76,7 +79,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Completed 02-03-PLAN.md (CLOB API Fundamentals & Order Types)
+Stopped at: Completed 02-05-PLAN.md (Data Analytics Skill)
 Resume file: None
 
-**Phase 2 Progress:** Plans 02-01, 02-02, and 02-03 complete. Market discovery skill (5 files, 2553 lines) and trading skill (3 files, 1532 lines) in progress. Ready for Plan 02-04 (Order Placement and Management).
+**Phase 2 Progress:** Plans 02-01 through 02-05 complete. Data analytics skill created (4 files, 1230 lines). Ready for Plan 02-06 (Portfolio Export).
