@@ -66,8 +66,8 @@ pip install websockets
 |----------|---------|--------------|
 | **[websocket-overview.md](./websocket-overview.md)** | Architecture, channels, connection setup | Understanding WebSocket system |
 | **[market-channel.md](./market-channel.md)** | Orderbook snapshots, price changes, trades | Implementing market data streaming |
-| *user-channel.md* | Order fills, trade confirmations | Tracking order status (Plan 08) |
-| *connection-management.md* | Reconnection, heartbeats, error handling | Production reliability (Plan 08) |
+| **[user-channel.md](./user-channel.md)** | Order fills, trade confirmations | Tracking order status |
+| **[connection-management.md](./connection-management.md)** | Reconnection, heartbeats, error handling | Production reliability |
 
 ### Reading Order
 
@@ -79,11 +79,11 @@ pip install websockets
 **For order tracking:**
 1. Complete market channel setup first
 2. Configure API credentials ([auth skill](../auth/))
-3. Read user-channel.md (coming in Plan 08)
+3. Read [user-channel.md](./user-channel.md) for authenticated streams
 
 **For production deployment:**
 1. Implement basic streaming first
-2. Add connection management patterns (coming in Plan 08)
+2. Add [connection-management.md](./connection-management.md) patterns
 3. Test reconnection and error handling
 
 ## Channel Quick Reference
@@ -93,8 +93,8 @@ pip install websockets
 | Live price updates | Market | No | [market-channel.md](./market-channel.md) |
 | Orderbook depth | Market | No | [market-channel.md](./market-channel.md) |
 | Trade executions | Market | No | [market-channel.md](./market-channel.md) |
-| Order notifications | User | Yes | user-channel.md (Plan 08) |
-| Trade confirmations | User | Yes | user-channel.md (Plan 08) |
+| Order notifications | User | Yes | [user-channel.md](./user-channel.md) |
+| Trade confirmations | User | Yes | [user-channel.md](./user-channel.md) |
 
 ### WebSocket Endpoints
 
@@ -205,7 +205,7 @@ async def keep_alive(ws):
             break
 ```
 
-Full reconnection patterns in connection-management.md (coming in Plan 08).
+Full reconnection patterns in [connection-management.md](./connection-management.md).
 
 ---
 
@@ -350,4 +350,4 @@ User Application
 ---
 
 **Last updated:** 2026-01-31
-**Status:** In Progress - Phase 2 (Plan 07: WebSocket Basics, Plan 08: User Channel & Connection Management)
+**Status:** Complete - All WebSocket documentation available
