@@ -13,7 +13,7 @@ This roadmap transforms Polymarket API research into comprehensive Claude skills
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Authentication & Setup Foundation** - Auth flows, wallet patterns, library initialization
-- [ ] **Phase 2: Core API Documentation** - Complete REST and WebSocket documentation for all three APIs
+- [x] **Phase 2: Core API Documentation** - Complete REST and WebSocket documentation for all three APIs
 - [ ] **Phase 3: Edge Cases & Best Practices** - Critical pitfalls, production patterns, library usage
 - [ ] **Phase 4: Skill Packaging** - Shareable Claude skills with selective loading
 
@@ -45,10 +45,17 @@ Plans:
   3. Documentation covers Data API for positions, balances, trade history, and portfolio export
   4. Documentation explains WebSocket connection patterns for prices, orderbook, and user-specific streams
   5. All endpoint schemas include example requests and responses with field explanations
-**Plans**: TBD
+**Plans**: 8 plans in 2 waves
 
 Plans:
-- [ ] TBD (determined during plan-phase)
+- [x] 02-01-PLAN.md — Gamma API overview and market fetching (GAMMA-01, partial GAMMA-02)
+- [x] 02-02-PLAN.md — Search, filtering, pagination, and metadata reference (GAMMA-02, GAMMA-03, GAMMA-04)
+- [x] 02-03-PLAN.md — CLOB API overview and order types (CLOB-01, CLOB-05)
+- [x] 02-04-PLAN.md — Order placement, management, positions (CLOB-02, CLOB-03, CLOB-04, CLOB-06)
+- [x] 02-05-PLAN.md — Data API overview, positions, trade history, prices (DATA-01, DATA-02, DATA-03)
+- [x] 02-06-PLAN.md — Portfolio export patterns (DATA-04)
+- [x] 02-07-PLAN.md — WebSocket overview and market channel (WS-01, WS-02, WS-05)
+- [x] 02-08-PLAN.md — User channel and connection management (WS-03, WS-04)
 
 ### Phase 3: Edge Cases & Best Practices
 **Goal**: Document critical pitfalls and production-ready patterns that prevent common integration failures
@@ -82,13 +89,13 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Authentication & Setup Foundation | 3/3 | Complete | 2026-01-31 |
-| 2. Core API Documentation | 0/TBD | Not started | - |
-| 3. Edge Cases & Best Practices | 0/TBD | Not started | - |
+| 2. Core API Documentation | 8/8 | Complete | 2026-01-31 |
+| 3. Edge Cases & Best Practices | 0/TBD | Ready | - |
 | 4. Skill Packaging | 0/TBD | Not started | - |
 
 ---
