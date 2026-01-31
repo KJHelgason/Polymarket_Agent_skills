@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2025-01-31)
 ## Current Position
 
 Phase: 3 of 4 (Edge Cases & Best Practices)
-Plan: 3 of 5 complete
+Plan: 4 of 5 complete
 Status: In progress
-Last activity: 2026-01-31 — Completed 03-03-PLAN.md (NegRisk Trading & Partial Fills)
+Last activity: 2026-01-31 — Completed 03-02-PLAN.md (Price & Resolution)
 
-Progress: [███████░░░] 70%
+Progress: [████████░░] 80%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 14
+- Total plans completed: 15
 - Average duration: 3 min
-- Total execution time: 0.75 hours
+- Total execution time: 0.82 hours
 
 **By Phase:**
 
@@ -29,7 +29,7 @@ Progress: [███████░░░] 70%
 |-------|-------|-------|----------|
 | 1 - Authentication & Setup Foundation | 3/3 | 10 min | 3 min |
 | 2 - Core API Documentation | 8/8 | 26 min | 3 min |
-| 3 - Edge Cases & Best Practices | 3/5 | 11 min | 4 min |
+| 3 - Edge Cases & Best Practices | 4/5 | 15 min | 4 min |
 
 **Recent Trend:**
 - Last 5 plans: 02-07 (4 min), 02-08 (4 min), 03-01 (3 min), 03-02 (4 min), 03-03 (4 min)
@@ -86,6 +86,9 @@ Recent decisions affecting current work:
 - NegRisk unnamed outcome detection as critical safety: Augmented negRisk events have placeholder outcomes (03-03)
 - PartialFillTracker as reusable class pattern: Full implementation for order fill lifecycle tracking (03-03)
 - Three reconciliation patterns: Real-time WebSocket, polling-based, and end-of-day reconciliation (03-03)
+- Midpoint as display-only: Users expect to trade at displayed price but can't (03-02)
+- Spread thresholds (2/5/10%): Quantifiable liquidity assessment for order type selection (03-02)
+- UMA timeline (2h/48h): Official dispute process timing documented (03-02)
 
 ### Pending Todos
 
@@ -98,7 +101,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Completed 03-03-PLAN.md
+Stopped at: Completed 03-02-PLAN.md
 Resume file: None
 
-**Phase 3 Progress:** Edge cases directory growing. EDGE-01 (USDC confusion), EDGE-02 (minimums), EDGE-03 (FOK precision), EDGE-07 (NegRisk patterns), EDGE-08 (tick size), EDGE-09 (partial fills) documented. Ready for Plan 03-04.
+**Phase 3 Progress:** Edge cases directory nearly complete. EDGE-01 (USDC confusion), EDGE-02 (minimums), EDGE-03 (FOK precision), EDGE-04 (price interpretation), EDGE-05 (resolution states), EDGE-06 (UMA disputes), EDGE-07 (NegRisk patterns), EDGE-08 (tick size), EDGE-09 (partial fills) documented. Ready for Plan 03-04 (Library Patterns).
