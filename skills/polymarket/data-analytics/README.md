@@ -41,6 +41,7 @@ Optional for advanced usage:
 | [data-api-overview.md](./data-api-overview.md) | API architecture and endpoints | Base URL, query patterns, when to use |
 | [positions-and-history.md](./positions-and-history.md) | Positions, balances, trade history | PnL fields, activity types, pagination |
 | [historical-prices.md](./historical-prices.md) | Price timeseries | Intervals, DataFrame conversion, charting |
+| [portfolio-export.md](./portfolio-export.md) | Export data for accounting | CSV/JSON export, PnL aggregation, tax lots |
 
 ## Common Use Cases
 
