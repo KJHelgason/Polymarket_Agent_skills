@@ -49,16 +49,19 @@ pip install requests
 |----------|---------|--------------|
 | **[gamma-api-overview.md](./gamma-api-overview.md)** | API architecture, events vs markets hierarchy | Understanding how Polymarket data is structured |
 | **[fetching-markets.md](./fetching-markets.md)** | Query patterns, response schemas, token extraction | Fetching and parsing market data |
-| *search-and-filtering.md* (coming) | Advanced search, category filtering | Finding specific markets efficiently |
+| **[search-and-filtering.md](./search-and-filtering.md)** | Advanced search, category filtering, pagination | Finding specific markets efficiently |
+| **[events-and-metadata.md](./events-and-metadata.md)** | Complete field reference for events and markets | Understanding all metadata fields |
 
 ### Reading Order
 
 **For first-time users:**
 1. Start with [gamma-api-overview.md](./gamma-api-overview.md) - understand events vs markets
 2. Use [fetching-markets.md](./fetching-markets.md) - learn query patterns
+3. Reference [events-and-metadata.md](./events-and-metadata.md) - understand all fields
 
 **For quick reference:**
 - Jump directly to [fetching-markets.md](./fetching-markets.md) for code examples
+- Use [search-and-filtering.md](./search-and-filtering.md) for advanced queries
 
 ## Common Use Cases
 
@@ -297,4 +300,4 @@ Event = "2024 Presidential Election" (question)
 ---
 
 **Last updated:** 2026-01-31 (Phase 2)
-**Status:** In Progress - Phase 2 Core API Documentation
+**Status:** Complete - Market Discovery documentation finalized
