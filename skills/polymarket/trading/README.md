@@ -243,40 +243,23 @@ if book['asks']:
     # Set your price at or above best_ask for immediate fill
 ```
 
-## Related Skills
+## Related Documentation
 
-This trading skill connects to other Polymarket skills:
+Trading connects to other Polymarket modules:
 
-### Required Before Trading
+**Prerequisites:**
+- **[Authentication](../auth/README.md)** - Client setup, credentials, allowances
+- **[Market Discovery](../market-discovery/README.md)** - Finding markets and token IDs
 
-- **[Authentication](../auth/)** - Client setup, credentials, allowances
-- **[Market Discovery](../market-discovery/)** - Finding markets and token IDs
+**During Trading:**
+- **[Real-Time Data](../real-time/README.md)** - Live price updates via WebSocket
+- **[Data Analytics](../data-analytics/README.md)** - Position tracking, P&L
 
-### Useful During Trading
+**Troubleshooting:**
+- **[Edge Cases](../edge-cases/README.md)** - Order constraints, precision issues
+- **[Library Reference](../library/README.md)** - Error handling patterns
 
-- **[Real-Time Data](../real-time/)** - Live price updates via WebSocket
-- **[Data Analytics](../data-analytics/)** - Position tracking, P&L
-
-### Skill Relationship Diagram
-
-```
-                    +----------------+
-                    |     AUTH       |
-                    | (client setup) |
-                    +-------+--------+
-                            |
-                            v
-+------------------+   +----+----+   +------------------+
-| MARKET DISCOVERY |-->| TRADING |<--| REAL-TIME DATA   |
-| (find markets)   |   | (this)  |   | (price updates)  |
-+------------------+   +----+----+   +------------------+
-                            |
-                            v
-                    +-------+--------+
-                    | DATA ANALYTICS |
-                    | (track P&L)    |
-                    +----------------+
-```
+[Back to Polymarket Skills](../SKILL.md)
 
 ## API Quick Reference
 

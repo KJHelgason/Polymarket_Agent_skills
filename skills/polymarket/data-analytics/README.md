@@ -155,13 +155,17 @@ def analyze_performance(wallet_address: str):
 
 **Price History (via CLOB):** `https://clob.polymarket.com/prices-history`
 
-## Related Skills
+## Related Documentation
 
-| Skill | Purpose | Link |
-|-------|---------|------|
-| Trading | Place and manage orders | [../trading/](../trading/) |
-| Market Discovery | Find markets and events | [../market-discovery/](../market-discovery/) |
-| Auth | Authentication setup | [../auth/](../auth/) |
+Data analytics connects to these modules:
+
+- **[Trading Operations](../trading/README.md)** - Source of positions and trades
+- **[Market Discovery](../market-discovery/README.md)** - Market context and metadata
+- **[Authentication](../auth/README.md)** - Not required for Data API (uses public wallet addresses)
+- **[Real-Time Data](../real-time/README.md)** - Live updates vs historical analysis
+- **[Library Reference](../library/README.md)** - Production patterns, error handling
+
+[Back to Polymarket Skills](../SKILL.md)
 
 ## Troubleshooting
 

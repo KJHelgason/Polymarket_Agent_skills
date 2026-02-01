@@ -213,16 +213,18 @@ eoa = Web3().eth.account.from_key(PRIVATE_KEY).address
 
 ---
 
-## Related Skills
+## Related Documentation
 
-Authentication and setup is the foundation. After completing this phase, you'll be ready for:
+Authentication is the foundation for all Polymarket operations:
 
-- **Trading Operations** - Placing orders, managing positions (Phase 2)
-- **Market Data** - Real-time market information and websocket feeds (Phase 2)
-- **Position Management** - Portfolio tracking and position analytics (Phase 3)
-- **Advanced Strategies** - Automated trading and market making (Phase 4)
+- **[Trading Operations](../trading/README.md)** - Place orders using authenticated client
+- **[Market Discovery](../market-discovery/README.md)** - Find markets (no auth required)
+- **[Real-Time Data](../real-time/README.md)** - WebSocket streaming (user channel needs auth)
+- **[Data Analytics](../data-analytics/README.md)** - Portfolio tracking (public wallet queries)
+- **[Edge Cases](../edge-cases/README.md)** - Authentication troubleshooting
+- **[Library Reference](../library/README.md)** - Client initialization patterns
 
-*Note: Related skills documentation will be added in subsequent phases.*
+[Back to Polymarket Skills](../SKILL.md)
 
 ## Architecture Overview
 

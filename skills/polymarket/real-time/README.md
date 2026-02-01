@@ -286,14 +286,18 @@ async def handle_trade(data):
 
 **Best practice:** Use REST to fetch initial state, WebSocket for ongoing updates.
 
-## Related Skills
+## Related Documentation
 
-| Skill | Relationship | Documentation |
-|-------|--------------|---------------|
-| **Market Discovery** | Get token IDs to subscribe | [../market-discovery/](../market-discovery/) |
-| **Trading** | Place orders tracked via user channel | [../trading/](../trading/) |
-| **Data Analytics** | Historical data (REST, not WebSocket) | [../data-analytics/](../data-analytics/) |
-| **Authentication** | Required for user channel | [../auth/](../auth/) |
+Real-time data connects to these modules:
+
+- **[Market Discovery](../market-discovery/README.md)** - Get token IDs for subscriptions
+- **[Trading Operations](../trading/README.md)** - Live order tracking via user channel
+- **[Data Analytics](../data-analytics/README.md)** - Historical data (REST, not WebSocket)
+- **[Authentication](../auth/README.md)** - Required for user channel (not market channel)
+- **[Edge Cases](../edge-cases/README.md)** - Connection issues, message handling
+- **[Library Reference](../library/README.md)** - WebSocket reliability patterns
+
+[Back to Polymarket Skills](../SKILL.md)
 
 ## Architecture Summary
 

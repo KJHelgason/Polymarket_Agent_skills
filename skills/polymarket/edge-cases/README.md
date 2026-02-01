@@ -115,11 +115,13 @@ Before placing orders, verify:
 
 ## Related Documentation
 
-- [Authentication Setup](../auth/README.md) - Credentials and allowances
-- [Order Types](../trading/order-types.md) - GTC, GTD, FOK, FAK selection
-- [Trading Overview](../trading/README.md) - Order placement workflows
-- [Library Reference](../library/README.md) - py-clob-client patterns
+When troubleshooting, you may need these related modules:
 
-## Navigation
+- **[Authentication](../auth/README.md)** - Credentials, allowances, wallet types
+- **[Trading Operations](../trading/README.md)** - Order placement workflows
+- **[Market Discovery](../market-discovery/README.md)** - Finding markets, token IDs
+- **[Real-Time Data](../real-time/README.md)** - WebSocket connection issues
+- **[Data Analytics](../data-analytics/README.md)** - Position queries, PnL tracking
+- **[Library Reference](../library/README.md)** - Error handling, production patterns
 
-[Back to Polymarket Skills](../README.md)
+[Back to Polymarket Skills](../SKILL.md)

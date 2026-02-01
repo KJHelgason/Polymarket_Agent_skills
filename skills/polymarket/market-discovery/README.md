@@ -200,33 +200,33 @@ time.sleep(0.5)
 
 **See:** [gamma-api-overview.md](./gamma-api-overview.md) for complete schema documentation
 
-## Related Skills
+## Related Documentation
 
-After discovering markets, you'll use these skills for trading:
+Market discovery feeds into trading workflows:
 
-| Skill | Purpose | Key Concepts |
-|-------|---------|--------------|
-| **[Authentication](../auth/)** | API setup and credentials | Wallet types, token allowances |
-| **Trading Operations** (Phase 2) | Order placement and management | CLOB API, order types |
-| **Real-Time Data** (Phase 2) | Live price updates | WebSocket subscriptions |
-| **Position Management** (Phase 3) | Portfolio tracking | Balance queries, P&L |
+- **[Trading Operations](../trading/README.md)** - Use discovered token IDs for orders
+- **[Real-Time Data](../real-time/README.md)** - Subscribe to discovered markets
+- **[Authentication](../auth/README.md)** - Required for placing orders (not for discovery)
+- **[Edge Cases](../edge-cases/README.md)** - NegRisk patterns, multi-outcome markets
 
 ### Workflow
 
 ```
 Market Discovery (Gamma API)
-    │
-    ├─ Find active events
-    ├─ Get market details
-    └─ Extract token IDs
-            │
+    |
+    +-- Find active events
+    +-- Get market details
+    +-- Extract token IDs
+            |
             v
 Trading Operations (CLOB API)
-    │
-    ├─ Place orders with token IDs
-    ├─ Manage positions
-    └─ Monitor order status
+    |
+    +-- Place orders with token IDs
+    +-- Manage positions
+    +-- Monitor order status
 ```
+
+[Back to Polymarket Skills](../SKILL.md)
 
 ## Key Concepts Quick Reference
 

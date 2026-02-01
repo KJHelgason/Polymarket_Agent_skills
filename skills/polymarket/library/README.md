@@ -88,6 +88,15 @@ from py_clob_client.order_builder.constants import BUY, SELL
 from py_clob_client.exceptions import PolyException, PolyApiException
 ```
 
-## Navigation
+## Related Documentation
 
-[Back to Polymarket Skills](../README.md) | [Edge Cases](../edge-cases/README.md) | [Trading](../trading/README.md)
+The library module connects to all skill areas:
+
+- **[Authentication](../auth/README.md)** - Client initialization patterns
+- **[Trading Operations](../trading/README.md)** - Order placement, error recovery
+- **[Real-Time Data](../real-time/README.md)** - WebSocket connection patterns
+- **[Edge Cases](../edge-cases/README.md)** - Troubleshooting, common pitfalls
+- **[Market Discovery](../market-discovery/README.md)** - API query patterns
+- **[Data Analytics](../data-analytics/README.md)** - Data retrieval patterns
+
+[Back to Polymarket Skills](../SKILL.md)
