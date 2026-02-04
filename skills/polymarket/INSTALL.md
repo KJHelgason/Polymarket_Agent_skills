@@ -8,10 +8,10 @@ Copy the polymarket folder to your Claude skills directory:
 
 ```bash
 # Clone the repository
-git clone https://github.com/[repo-path]/polymarket-skills.git
+git clone https://github.com/KJHelgason/Polymarket_Agent_skills.git
 
 # Copy to Claude skills
-cp -r polymarket-skills/skills/polymarket ~/.claude/skills/
+cp -r Polymarket_Agent_skills/skills/polymarket ~/.claude/skills/
 ```
 
 Skills in `~/.claude/skills/` are available across all projects.
@@ -40,7 +40,7 @@ Copy to your project's .claude directory:
 
 ```bash
 # Copy skill to project
-cp -r polymarket-skills/skills/polymarket ./.claude/skills/
+cp -r Polymarket_Agent_skills/skills/polymarket ./.claude/skills/
 ```
 
 Project-level skills are available when working in that project.
@@ -94,7 +94,7 @@ Expected output should show:
 To update to the latest version:
 
 ```bash
-cd polymarket-skills
+cd Polymarket_Agent_skills
 git pull
 
 # For personal installation
