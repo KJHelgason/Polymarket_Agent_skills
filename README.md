@@ -20,14 +20,16 @@ No more guessing at endpoints or making common mistakes.
 
 ```bash
 git clone https://github.com/KJHelgason/Polymarket_Agent_skills.git
-cp -r Polymarket_Agent_skills/skills/polymarket ~/.claude/skills/
+mkdir -p ~/.claude/skills
+cp -r Polymarket_Agent_skills ~/.claude/skills/polymarket
 ```
 
 ### Project Use (single project)
 
 ```bash
 git clone https://github.com/KJHelgason/Polymarket_Agent_skills.git
-cp -r Polymarket_Agent_skills/skills/polymarket ./.claude/skills/
+mkdir -p .claude/skills
+cp -r Polymarket_Agent_skills .claude/skills/polymarket
 ```
 
 ## Usage
@@ -66,7 +68,7 @@ No other dependencies — skills are documentation only.
 ```bash
 cd Polymarket_Agent_skills
 git pull
-cp -r skills/polymarket ~/.claude/skills/
+cp -r . ~/.claude/skills/polymarket
 ```
 
 ## License
